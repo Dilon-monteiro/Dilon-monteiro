@@ -40,16 +40,15 @@ I hold an **M.Sc. in Data Science** from St. Aloysius (Deemed to be University) 
 - **Development** · Git, Docker, Streamlit
 
 </details>
-
 ## Project portfolio
 
-### [FITFORGE](https://github.com/Dilon-monteiro/fitforge)
+![FITFORGE logs three barbell reps while Word Search Puzzle finds SQL diagonally](./project-showcase.svg)
 
-A fitness tracker I built to organize workouts, record sets and reps, and track progress over time.
+**[FITFORGE](https://github.com/Dilon-monteiro/fitforge)** · Plan workouts, log sets and reps, and track progress.
 
-### [Word Search Puzzle](https://github.com/Dilon-monteiro/WordSearch-puzzle)
+**[Word Search Puzzle](https://github.com/Dilon-monteiro/WordSearch-puzzle)** · Generate and solve word grids with adaptive difficulty.
 
-A Streamlit app that generates word search puzzles with automatic word placement and adaptive difficulty.
+**[Visit my portfolio ↗](https://dilon-portfolio.vercel.app/)**
 
 <details>
 <summary><strong>📊 GitHub activity</strong></summary>

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240"
+     viewBox="0 0 800 240" role="img" aria-labelledby="title desc">
+  <title id="title">Dilon’s projects in motion</title>
+  <desc id="desc">
+    A barbell completes three reps for FITFORGE. Beside it, a word-search
+    scanner finds SQL diagonally in a four-by-four letter grid.
+  </desc>
+
+  <style>
+    .heading { font: 700 24px system-ui, sans-serif; fill: #f1f5fc; }
+    .label { font: 15px monospace; }
+    .letters { font: 700 18px monospace; fill: #e4eaff; text-anchor: middle; }
+
+    .bar { animation: lift 2s ease-in-out infinite; }
+    @keyframes lift {
+      0%, 12%, 92%, 100% { transform: translateY(0); }
+      48%, 58% { transform: translateY(-34px); }
+    }
+
+    .count { opacity: 0; animation-duration: 6s;
+             animation-timing-function: step-end; animation-iteration-count: infinite; }
+    .zero { animation-name: zero; }
+    .one { animation-name: one; }
+    .two { animation-name: two; }
+    .three { animation-name: three; }
+    @keyframes zero  { 0% {opacity:1} 16%,100% {opacity:0} }
+    @keyframes one   { 0% {opacity:0} 16% {opacity:1} 49.33%,100% {opacity:0} }
+    @keyframes two   { 0% {opacity:0} 49.33% {opacity:1} 82.67%,100% {opacity:0} }
+    @keyframes three { 0% {opacity:0} 82.67%,100% {opacity:1} }
+
+    .scanner { animation: scan 6s ease-in-out infinite; }
+    @keyframes scan {
+      0%, 8% { transform: translateY(0); opacity: .8; }
+      42% { transform: translateY(100px); opacity: .8; }
+      48%, 100% { transform: translateY(100px); opacity: 0; }
+    }
+
+    .match { stroke-dasharray: 100; animation: find 6s ease-out infinite; }
+    @keyframes find {
+      0%, 43% { stroke-dashoffset: 100; opacity: 0; }
+      45% { stroke-dashoffset: 100; opacity: 1; }
+      67%, 94% { stroke-dashoffset: 0; opacity: 1; }
+      100% { stroke-dashoffset: 0; opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .bar, .count, .scanner, .match { animation: none; }
+      .scanner { opacity: 0; }
+      .three { opacity: 1; }
+      .match { stroke-dashoffset: 0; }
+    }
+  </style>
+
+  <!-- FITFORGE -->
+  <rect x="2" y="2" width="390" height="236" rx="16"
+        fill="#101c21" stroke="#305248"/>
+  <text class="heading" x="24" y="42">FITFORGE</text>
+  <text class="label" x="24" y="66" fill="#92c7b2">Workout log</text>
+
+  <!-- Rack and barbell -->
+  <g fill="none" stroke="#40544f" stroke-width="4" stroke-linecap="round">
+    <path d="M89 111V177 M303 111V177 M76 178H102 M290 178H316"/>
+  </g>
+  <g class="bar">
+    <rect x="62" y="145" width="268" height="6" rx="3" fill="#d8fff0"/>
+    <g fill="#77efb9">
+      <rect x="86" y="126" width="14" height="44" rx="4"/>
+      <rect x="292" y="126" width="14" height="44" rx="4"/>
+    </g>
+    <g fill="#43ac85">
+      <rect x="71" y="133" width="11" height="30" rx="3"/>
+      <rect x="310" y="133" width="11" height="30" rx="3"/>
+    </g>
+    <path d="M164 148H228" stroke="#67877b" stroke-width="4"
+          stroke-dasharray="3 3"/>
+  </g>
+
+  <g class="label" fill="#9dffcf">
+    <text x="24" y="213">REPS</text>
+    <text class="count zero" x="80" y="213">0 / 3</text>
+    <text class="count one" x="80" y="213">1 / 3</text>
+    <text class="count two" x="80" y="213">2 / 3</text>
+    <text class="count three" x="80" y="213">3 / 3 ✓</text>
+  </g>
+
+  <!-- Word Search Puzzle -->
+  <rect x="408" y="2" width="390" height="236" rx="16"
+        fill="#17162a" stroke="#464064"/>
+  <text class="heading" x="430" y="42">Word Search Puzzle</text>
+  <text class="label" x="430" y="66" fill="#bbb0de">Find the word</text>
+
+  <g transform="translate(442 83)">
+    <rect width="132" height="132" rx="8" fill="#22203a"/>
+    <path d="M33 0V132 M66 0V132 M99 0V132
+             M0 33H132 M0 66H132 M0 99H132"
+          stroke="#393650" fill="none"/>
+    <path class="match" d="M16.5 16.5L82.5 82.5" pathLength="100"
+          fill="none" stroke="#8257bb" stroke-width="24" stroke-linecap="round"/>
+    <g class="letters">
+      <text y="23"  x="16.5 49.5 82.5 115.5">SAIR</text>
+      <text y="56"  x="16.5 49.5 82.5 115.5">PQET</text>
+      <text y="89"  x="16.5 49.5 82.5 115.5">DOLB</text>
+      <text y="122" x="16.5 49.5 82.5 115.5">KAMY</text>
+    </g>
+    <path class="scanner" d="M4 15H128" stroke="#8ef2ff" stroke-width="2"/>
+  </g>
+
+  <text class="label" x="602" y="133" fill="#bbb0de">TARGET</text>
+  <text x="600" y="169" fill="#dfc6ff"
+        font-family="monospace" font-size="32" font-weight="700">SQL</text>
+</svg>

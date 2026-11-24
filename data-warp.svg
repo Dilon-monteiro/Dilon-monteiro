@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="960" height="380" viewBox="0 0 960 380"
+     role="img" aria-labelledby="title description">
+  <title id="title">Dilon Monteiro — Data Warp</title>
+  <desc id="description">
+    A pixel ship carries data from Google Ads through Airflow to BigQuery.
+    Each station lights up as the ship passes. At BigQuery, the ship’s trail
+    splits into three beams that build a reporting chart.
+  </desc>
+
+  <defs>
+    <linearGradient id="space" x2="100%" y2="100%">
+      <stop stop-color="#050b19"/>
+      <stop offset=".55" stop-color="#15102c"/>
+      <stop offset="1" stop-color="#081822"/>
+    </linearGradient>
+
+    <linearGradient id="spectrum">
+      <stop stop-color="#53ffe1"/>
+      <stop offset=".5" stop-color="#a995ff"/>
+      <stop offset="1" stop-color="#ff83cc"/>
+    </linearGradient>
+
+    <pattern id="stars" width="107" height="73" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="19" r="1" fill="#98b9e0"/>
+      <circle cx="68" cy="52" r=".8" fill="#ae97dd"/>
+      <circle cx="91" cy="8" r=".6" fill="white"/>
+    </pattern>
+
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+
+    <clipPath id="frame">
+      <rect width="960" height="380" rx="20"/>
+    </clipPath>
+
+    <!-- The ship and the data packets share this flight path. -->
+    <path id="route"
+          d="M-45 236
+             C35 236 88 210 160 210
+             C260 210 292 280 362 258
+             S410 194 460 194
+             C545 194 550 268 619 253
+             S686 202 744 202"/>
+
+    <g id="gate" fill="none" stroke="currentColor">
+      <circle r="24" opacity=".5"/>
+      <circle r="32" stroke-width="3" stroke-dasharray="41 13 5 8">
+        <animateTransform attributeName="transform" type="rotate"
+                          from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="39" stroke-width="1.5" stroke-dasharray="7 23">
+        <animateTransform attributeName="transform" type="rotate"
+                          from="360" to="0" dur="15s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g id="ship">
+      <path fill="#ff67b8" d="M-13 -5 L-36 0 L-13 5Z"/>
+      <path fill="#ffe99d" d="M-13 -3 L-26 0 L-13 3Z"/>
+      <path fill="#ecffff"
+            d="M-16 -6H-6V-13H0L9 -5H16L22 0L16 5H9L0 13H-6V6H-16Z"/>
+      <path fill="#35b8d2" d="M-1 -3H10L14 0L10 3H-1Z"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="960" height="380" fill="url(#space)"/>
+    <rect width="960" height="380" fill="url(#stars)" opacity=".65"/>
+
+    <!-- Perspective grid -->
+    <g fill="none" stroke="#73579d" opacity=".24">
+      <path d="M480 195L-500 380 M480 195L-200 380 M480 195L20 380
+               M480 195L190 380 M480 195L335 380 M480 195L480 380
+               M480 195L625 380 M480 195L770 380 M480 195L940 380
+               M480 195L1160 380 M480 195L1460 380"/>
+      <path d="M0 270H960 M0 288H960 M0 313H960 M0 346H960"/>
+    </g>
+
+    <g text-anchor="middle">
+      <text x="480" y="43" fill="#79e9db" font-family="monospace"
+            font-size="15" letter-spacing="4">DATA ENGINEER / MANGALURU</text>
+      <text x="480" y="108" fill="url(#spectrum)" font-family="sans-serif"
+            font-size="62" font-weight="800">Dilon Monteiro</text>
+    </g>
+
+    <!-- Neon rail -->
+    <g fill="none" stroke-linecap="round">
+      <use href="#route" stroke="#52ffe2" stroke-width="9"
+           opacity=".3" filter="url(#glow)"/>
+      <use href="#route" stroke="url(#spectrum)" stroke-width="2"/>
+      <use href="#route" stroke="#d8fff9" stroke-width="3" stroke-dasharray="2 32">
+        <animate attributeName="stroke-dashoffset" from="34" to="0"
+                 dur=".85s" repeatCount="indefinite"/>
+      </use>
+    </g>
+
+    <!-- Google Ads -->
+    <g transform="translate(160 210)" color="#5cffe2">
+      <use href="#gate"/>
+      <circle r="17" fill="currentColor" opacity=".12">
+        <animate attributeName="opacity" dur="8s" repeatCount="indefinite"
+                 values=".12;.12;.9;.12;.12" keyTimes="0;.13;.17;.23;1"/>
+      </circle>
+      <path d="M-3 -6L-9 0L-3 6 M3 -6L9 0L3 6"
+            fill="none" stroke="currentColor" stroke-width="2"/>
+    </g>
+
+    <!-- Airflow -->
+    <g transform="translate(460 194)" color="#b19aff">
+      <use href="#gate"/>
+      <circle r="17" fill="currentColor" opacity=".12">
+        <animate attributeName="opacity" dur="8s" repeatCount="indefinite"
+                 values=".12;.12;.9;.12;.12" keyTimes="0;.38;.43;.49;1"/>
+      </circle>
+      <g fill="currentColor">
+        <path d="M0 0L-8 -13Q2 -19 5 -7Z
+                 M0 0L15 -1Q16 10 5 7Z
+                 M0 0L-6 14Q-17 9 -9 2Z"/>
+        <animateTransform attributeName="transform" type="rotate"
+                          from="0" to="360" dur="4s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- BigQuery -->
+    <g transform="translate(744 202)" color="#ff8ece">
+      <use href="#gate"/>
+      <circle r="17" fill="currentColor" opacity=".12">
+        <animate attributeName="opacity" dur="8s" repeatCount="indefinite"
+                 values=".12;.12;.95;.12;.12" keyTimes="0;.65;.69;.79;1"/>
+      </circle>
+      <circle cx="-2" cy="-2" r="7" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M3 3L10 10" stroke="currentColor" stroke-width="3"/>
+    </g>
+
+    <!-- The ship reaches BigQuery 5.52 seconds into each eight-second loop. -->
+    <g>
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto"
+                     calcMode="linear" keyPoints="0;1;1" keyTimes="0;.69;1">
+        <mpath href="#route"/>
+      </animateMotion>
+      <use href="#ship">
+        <animate attributeName="opacity" dur="8s" repeatCount="indefinite"
+                 values="1;1;0;0" keyTimes="0;.685;.71;1"/>
+      </use>
+    </g>
+
+    <!-- Three light trails connect BigQuery to the chart. -->
+    <g fill="none" stroke-width="2" stroke-dasharray="100 101" stroke-dashoffset="100">
+      <path d="M744 202Q784 224 830 224" stroke="#53ffe1" pathLength="100"/>
+      <path d="M744 202Q800 202 856 192" stroke="#ac9aff" pathLength="100"/>
+      <path d="M744 202Q801 181 882 160" stroke="#ff83cc" pathLength="100"/>
+      <animate attributeName="stroke-dashoffset" dur="8s" repeatCount="indefinite"
+               values="100;100;0;0;100" keyTimes="0;.69;.78;.93;1"/>
+    </g>
+
+    <!-- The chart grows upward when the data arrives. -->
+    <g fill="none" stroke-width="12" stroke-dasharray="100 101" stroke-dashoffset="100">
+      <path d="M830 248V224" pathLength="100" stroke="#53ffe1"/>
+      <path d="M856 248V192" pathLength="100" stroke="#ac9aff"/>
+      <path d="M882 248V160" pathLength="100" stroke="#ff83cc"/>
+      <animate attributeName="stroke-dashoffset" dur="8s" repeatCount="indefinite"
+               values="100;100;0;0;100" keyTimes="0;.73;.84;.95;1"/>
+    </g>
+
+    <g text-anchor="middle" font-family="monospace" font-size="17" fill="#e7edff">
+      <text x="160" y="292">Google Ads</text>
+      <text x="460" y="276">Airflow</text>
+      <text x="744" y="284">BigQuery</text>
+    </g>
+
+    <rect y="321" width="960" height="59" fill="#080d1b" opacity=".92"/>
+    <g text-anchor="middle" font-family="monospace" font-size="16">
+      <text x="480" y="356" fill="#69f6de">EXTRACTING CAMPAIGN DATA
+        <animate attributeName="opacity" dur="8s" repeatCount="indefinite"
+                 values="1;0;0" keyTimes="0;.34;1" calcMode="discrete"/>
+      </text>
+      <text x="480" y="356" fill="#bcaaff" opacity="0">ORCHESTRATING THE REFRESH
+        <animate attributeName="opacity" dur="8s" repeatCount="indefinite"
+                 values="0;1;0;0" keyTimes="0;.34;.69;1" calcMode="discrete"/>
+      </text>
+      <text x="480" y="356" fill="#ff9cd6" opacity="0">CAMPAIGN REPORT READY ✓
+        <animate attributeName="opacity" dur="8s" repeatCount="indefinite"
+                 values="0;1;1" keyTimes="0;.69;1" calcMode="discrete"/>
+      </text>
+    </g>
+  </g>
+</svg>

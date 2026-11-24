@@ -1,18 +1,63 @@
-# 💫 About Me:
-## Hello! I'm Dilon 👋<br><br>I'm an aspiring Data Engineer with hands-on experience in Python, SQL, Apache Airflow, GCP, BigQuery, PostgreSQL, and dbt. I enjoy designing ETL pipelines, optimizing data workflows, and learning new technologies in cloud and data engineering. I'm always open to collaborating on exciting projects and growing as a developer.
+![Dilon Monteiro — animated data pipeline from Google Ads through Airflow to BigQuery](./data-warp.svg)
 
+<p align="center">
+  <a href="#project-portfolio"><img src="https://img.shields.io/badge/Portfolio-263B62?style=for-the-badge" alt="View my project portfolio" /></a>
+  <a href="https://www.linkedin.com/in/dilon-monteiro-a95706294/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:dillonmonteiro2003@gmail.com"><img src="https://img.shields.io/badge/Email-B33A32?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Dilon" /></a>
+</p>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://linkedin.com/in/dilon-monteiro-a95706294) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:dillonmonteiro2003@gmail.com) 
+## About me
 
-# 💻 Tech Stack:
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23DC322F.svg?style=for-the-badge&logo=scala&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=Apache%20Flink&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Dilon-monteiro&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=Dilon-monteiro&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Dilon-monteiro&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+I’m Dilon, a data engineer from Mangaluru. At **ZEE Entertainment**, I automated Google Ads extraction and helped keep campaign reporting tables fresh in BigQuery. At **Prasanna Technologies**, I’m migrating drag-and-drop ETL workflows to Apache Airflow and PostgreSQL.
 
----
-[![](https://komarev.com/ghpvc/?username=Dilon-monteiro&icon=0&color=0)](https://visitcount.itsvg.in)
+I hold an **M.Sc. in Data Science** from St. Aloysius (Deemed to be University) and am open to **Data Engineer** opportunities.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## Engineering highlights
+
+| Work | Result |
+| --- | --- |
+| Google Ads ingestion | Automated extraction of approximately **47 GB per day**. |
+| Marketing data refreshes | Maintained Airflow workflows across **170+ tables** for near-hourly reporting. |
+| BigQuery optimization | Used partitioning and clustering to cut a reporting query from **45 seconds to 8 seconds**. |
+| PostgreSQL incremental loads | Used a driver table to identify changed records and refresh the affected rows every **30 minutes**. |
+
+## Tech stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-334155)
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?logo=apacheairflow&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?logo=googlebigquery&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-C94D32?logo=dbt&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-B34708?logo=apachespark&logoColor=white)
+
+<details>
+<summary>More tools I work with</summary>
+
+- **Cloud and infrastructure** · Google Cloud Composer, Cloud Storage, Pub/Sub, Terraform
+- **Data quality and streaming** · Great Expectations, Apache Kafka
+- **Analytics and reporting** · Pandas, Looker Studio, Power BI
+- **Development** · Git, Docker, Streamlit
+
+</details>
+
+## Project portfolio
+
+### [FITFORGE](https://github.com/Dilon-monteiro/fitforge)
+
+A fitness tracker I built to organize workouts, record sets and reps, and track progress over time.
+
+### [Word Search Puzzle](https://github.com/Dilon-monteiro/WordSearch-puzzle)
+
+A Streamlit app that generates word search puzzles with automatic word placement and adaptive difficulty.
+
+<details>
+<summary><strong>📊 GitHub activity</strong></summary>
+
+![Dilon’s GitHub stats](https://github-readme-stats.shion.dev/api?username=Dilon-monteiro&theme=dark&hide_border=true&include_all_commits=true)
+
+![Dilon’s contribution streak](https://streak-stats.demolab.com/?user=Dilon-monteiro&theme=dark&hide_border=true)
+
+![Languages in Dilon’s public repositories](https://github-readme-stats.shion.dev/api/top-langs/?username=Dilon-monteiro&theme=dark&hide_border=true&layout=compact)
+
+</details>

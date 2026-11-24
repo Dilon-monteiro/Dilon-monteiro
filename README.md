@@ -48,9 +48,6 @@ I hold an **M.Sc. in Data Science** from St. Aloysius (Deemed to be University) 
 
 [NutriGPT · My portfolio](https://dilon-portfolio.vercel.app/) · [Brain Tumor Detection · Repository](https://github.com/Dilon-monteiro/brain_tumour_vvg)
 
-![FITFORGE counts barbell reps while Word Search Puzzle finds SQL in a letter grid.](./project-showcase.svg)
-
-[FITFORGE · Repository](https://github.com/Dilon-monteiro/fitforge) · [Word Search Puzzle · Repository](https://github.com/Dilon-monteiro/WordSearch-puzzle)
 
 **[Visit my portfolio ↗](https://dilon-portfolio.vercel.app/)**
 

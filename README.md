@@ -44,9 +44,13 @@ I hold an **M.Sc. in Data Science** from St. Aloysius (Deemed to be University) 
 
 ![FITFORGE logs three barbell reps while Word Search Puzzle finds SQL diagonally](./project-showcase.svg)
 
-**[FITFORGE](https://github.com/Dilon-monteiro/fitforge)** · Plan workouts, log sets and reps, and track progress.
+![NutriGPT retrieves a source and builds an answer. Brain Tumor Detection scans an illustrated MRI and produces a model output.](./ai-projects.svg)
 
-**[Word Search Puzzle](https://github.com/Dilon-monteiro/WordSearch-puzzle)** · Generate and solve word grids with adaptive difficulty.
+[NutriGPT · My portfolio](https://dilon-portfolio.vercel.app/) · [Brain Tumor Detection · Repository](https://github.com/Dilon-monteiro/brain_tumour_vvg)
+
+![FITFORGE counts barbell reps while Word Search Puzzle finds SQL in a letter grid.](./project-showcase.svg)
+
+[FITFORGE · Repository](https://github.com/Dilon-monteiro/fitforge) · [Word Search Puzzle · Repository](https://github.com/Dilon-monteiro/WordSearch-puzzle)
 
 **[Visit my portfolio ↗](https://dilon-portfolio.vercel.app/)**
 
